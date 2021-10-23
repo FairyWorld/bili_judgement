@@ -3,9 +3,9 @@
 风纪单功能版，只有风纪投票一个功能，部分代码抄自 [BILI_judgement](https://github.com/dd178/BILI_judgement) ，投票结果从众议观点中随机抽取,如果没有观点，则投默认票
 # 在原有基础上增加了自动运行
 
-# 重要声明：
-# 请勿直接Fork本仓库！！！
-# 若出现Github Action滥用情况，本人将会直接关闭仓库
+### 重要声明：
+### 请勿直接Fork本仓库！！！
+### 若出现Github Action滥用情况，本人将会直接关闭仓库
 
 ## 使用：
 * 创建密钥，名为ADVCONFIG，填入内容参考文件夹config内容
