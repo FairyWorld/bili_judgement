@@ -1,0 +1,21 @@
+{
+    "http_header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "Referer": "https://www.bilibili.com/",
+        "Connection": "keep-alive"
+    },
+    "default_vote": {
+        "mode": 1,
+        "vote": [0, 1, 2],
+        "once": true
+    },
+    "users": [
+        {
+            "cookieDatas": {
+                "SESSDATA": "3bea4402%2C1650273166%2C5581c%2Aa1",
+                "bili_jct": "4dbd0d5ba6c23a0595d37824e98ae418",
+                "DedeUserID": "510539972"
+            }
+        }
+    ]
+}
