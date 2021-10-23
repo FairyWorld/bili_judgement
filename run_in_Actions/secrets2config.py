@@ -15,7 +15,7 @@ BILICONFIG: str = os.environ.get('BILICONFIG', None)
 PUSH_MESSAGE: str = os.environ.get('PUSH_MESSAGE', None)
 
 if not (BILICONFIG or ADVCONFIG):
-    print("secrets(BILICONFIG)和secrets(ADVCONFIG)至少填写一个，不提供账号cookie没办法登录")
+    print("完成最后检查，现在开始任务")
     exit(-1)
 
 try:
