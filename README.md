@@ -9,7 +9,7 @@
 ### 若出现Github Action滥用情况，本人将会直接关闭仓库！
 
 ## 使用：
-* 创建密钥，名为ADVCONFIG，填入内容参考文件夹config内容
+* 创建密钥，名为CONFIG，填入内容参考文件夹config内容
 * 运行Action
 
 ## 特别声明:
