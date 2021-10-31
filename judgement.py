@@ -86,6 +86,17 @@ class asyncBiliApi(object):
         async with self._session.get(url, verify_ssl=False) as r:
             ret = await r.json()
         return ret
+        
+    async def juryCaseObtain(self):
+        '''
+        拉取一个案件用于风纪委员投票
+        '''
+        url = 'http://api.bilibili.com/x/credit/jury/apply'
+        post_data = {
+            "csrf": self._bili_jct
+        }
+        async with self._session.get(url, data=post_data, verify_ssl=False) as r:
+            return await r.json()
 
     async def likeCv(self,
                      cvid: int,
