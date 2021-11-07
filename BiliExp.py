@@ -89,7 +89,7 @@ class asyncBiliApi(object):
         
     async def juryCaseObtain(self):
         '''
-        拉取一个案件用于风纪委员投票
+        申请风纪委员连任(测试)
         '''
         url = 'http://api.bilibili.com/x/credit/jury/apply'
         post_data = {
