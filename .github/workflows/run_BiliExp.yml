@@ -14,7 +14,7 @@ jobs:
     steps:
     # 设置服务器时区为东八区
     - name: Set time zone
-      run: sudo timedatectl set-timezone 'Asia/Guangzhou'
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
     - uses: actions/checkout@v2
       with: 
         repository: ${{ secrets.REPOSITORY }}
